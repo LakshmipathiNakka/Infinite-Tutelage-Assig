@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Infinite Tutelage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <!-- Left Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-text"> Ditch Dollar</div>
+            </div>
+            <ul>
+                <li><a href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-users"></i> CRM</a></li>
+                <li><a href="#"><i class="fas fa-briefcase"></i> MAM</a></li>
+                <li><a href="#"><i class="fas fa-chart-line"></i> PAMM</a></li>
+                <li><a href="#"><i class="fas fa-exchange-alt"></i> Trade</a></li>
+                <li><a href="#"><i class="fas fa-wallet"></i> Wallet</a></li>
+                <li><a href="#"><i class="fas fa-user-cog"></i> Accounts</a></li>
+                <li><a href="#"><i class="fas fa-history"></i> History</a></li>
+            </ul>
+            <div class="user-info">
+                <img src="https://lh3.googleusercontent.com/ogw/AF2bZyjSrcM2yzb7Ee5wVFv4iHNX82A6u6pmgcNGi8RAAoJ_o7E=s32-c-mo" alt="User">
+                <div>
+                    <p>Lakshmeepathi Nakka</p>
+                    <p>lakshmeepathin184@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header class="main-header">
+                <h2>Dashboard</h2>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </header>
+            <section class="quick-links">
+                <div><i class="fas fa-dollar-sign"></i> Deposit</div>
+                <div><i class="fas fa-credit-card"></i> Withdraw</div>
+                <div><i class="fas fa-cogs"></i> Settings</div>
+                <div><i class="fas fa-id-card"></i> Verification</div>
+                <div><i class="fas fa-gift"></i> Bonuses</div>
+                <div><i class="fas fa-chart-bar"></i> MT5</div>
+                <div><i class="fas fa-exchange-alt"></i> Transfer</div>
+                <div><i class="fas fa-history"></i> History</div>
+                <div><i class="fas fa-handshake"></i> Partner</div>
+                <div><i class="fas fa-exchange-alt"></i> Exchange</div>
+                <div><i class="fas fa-chart-line"></i> Analytics</div>
+            </section>
+            <section class="overview">
+                <h3>Overview</h3>
+                <div class="chart">
+                    <div class="bar-chart">
+                        <div style="--bar-height: 60%;">Jan</div>
+                        <div style="--bar-height: 40%;">Feb</div>
+                        <div style="--bar-height: 50%;">Mar</div>
+                        <div style="--bar-height: 80%;">Apr</div>
+                        <div style="--bar-height: 60%;">May</div>
+                        <div style="--bar-height: 40%;">Jun</div>
+                        <div style="--bar-height: 70%;">Jul</div>
+                        <div style="--bar-height: 90%;">Aug</div>
+                        <div style="--bar-height: 30%;">Sep</div>
+                        <div style="--bar-height: 50%;">Oct</div>
+                        <div style="--bar-height: 60%;">Nov</div>
+                        <div style="--bar-height: 40%;">Dec</div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="right-sidebar">
+            <div class="trading-accounts">
+                <h3>Trading Accounts</h3>
+                <div class="account">
+                    <span><i class="fas fa-user"></i> Master Account</span>
+                    <span>CTTrader #273728</span>
+                    <span class="balance">0.00 USD</span>
+                </div>
+                <div class="account">
+                    <span><i class="fas fa-user"></i> Master Account</span>
+                    <span>CTTrader #273728</span>
+                    <span class="balance">0.00 USD</span>
+                </div>
+            </div>
+
+            <div class="open-trades">
+                <h3>Open Trades</h3>
+                <div class="trade">
+                    <span><i class="fas fa-caret-up"></i> GBP/USD</span>
+                    <span>Long</span>
+                    <span class="trade-profit positive">+56.00 USD</span>
+                </div>
+                <div class="trade">
+                    <span><i class="fas fa-caret-down"></i> USD/JPY</span>
+                    <span>Long</span>
+                    <span class="trade-profit negative">-0.09 USD</span>
+                </div>
+                <div class="trade">
+                    <span><i class="fas fa-caret-down"></i> EUR/USD</span>
+                    <span>Short</span>
+                    <span class="trade-profit negative">-1.09 USD</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
